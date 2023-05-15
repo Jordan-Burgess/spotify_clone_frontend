@@ -1,0 +1,37 @@
+.Register {
+    padding: 30px;
+    text-align: center;
+}
+.FormSection {
+    margin: 15px;
+}
+label {
+    display: block;
+    margin: 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px){
+    .Logo {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .Logo {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .Logo {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .Logo {
+        width: 15%;
+    }
+}

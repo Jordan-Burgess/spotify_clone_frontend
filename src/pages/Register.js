@@ -4,21 +4,25 @@ import './Register.css';
 
 function Register() {
   return (
-    <div>
-      <img src={logo}/>
+    <div className='Register'>
+      <img src={logo} className='Logo'/>
       <p>Sign up for free to start listening.</p>
+      <hr/>
       <form>
-        <label for='email'>What's your email?</label>
-        <input type='email' id='email' name='email'/>
-        <hr/>
-        <label for='email2'>Confirm your email?</label>
-        <input type='email' id='email2' name='email2'/>
-        <hr/>
+        <p>Sign up with your email address</p>
+        <div className='FormSection'>
+          <label for='email'>What's your email?</label>
+          <input type='email' id='email' name='email' placeholder='Enter your email.' required/>
+        </div>
+        <div className='FormSection'>
+          <label for='email2'>Confirm your email?</label>
+          <input type='email' id='email2' name='email2' placeholder='Enter your email again.' required/>
+        </div>
         <label for='password'>Create a password</label>
-        <input type='password' id='password' name='password'/>
+        <input type='password' id='password' name='password' placeholder='Create a password.' required/>
         <hr/>
         <label for='name'>What should we call you?</label>
-        <input type='text' id='name' name='name'/>
+        <input type='text' id='name' name='name' placeholder='Enter a profile name.' required/>
         <p>This appears on your profile.</p>
         <hr/>
         <label for='birthday'>What's your date of birth?</label>
