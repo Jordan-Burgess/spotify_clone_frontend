@@ -10,20 +10,29 @@ function Register() {
       <hr/>
       <form>
         <p>Sign up with your email address</p>
+
         <div className='FormSection'>
           <label for='email'>What's your email?</label>
-          <input type='email' id='email' name='email' placeholder='Enter your email.' required/>
+          <input className='textInput' type='email' id='email' name='email' placeholder='Enter your email.' required/>
         </div>
+
         <div className='FormSection'>
-          <label for='email2'>Confirm your email?</label>
-          <input type='email' id='email2' name='email2' placeholder='Enter your email again.' required/>
+          <label for='password'>Create a password</label>
+          <input className='textInput' type='password' id='password' name='password' placeholder='Create a password.' required/>
         </div>
-        <label for='password'>Create a password</label>
-        <input type='password' id='password' name='password' placeholder='Create a password.' required/>
-        <hr/>
-        <label for='name'>What should we call you?</label>
-        <input type='text' id='name' name='name' placeholder='Enter a profile name.' required/>
-        <p>This appears on your profile.</p>
+
+        <div className='FormSection'>
+          <label for='password2'>Confirm your password?</label>
+          <input className='textInput' type='password' id='password2' name='password2' placeholder='Enter your password again.' required/>
+        </div>
+
+        <div className='FormSection'>
+          <label for='name'>What should we call you?</label>
+          <input className='textInput' type='text' id='name' name='name' placeholder='Enter a profile name.' required/>
+          <p className='NameNotice'>This appears on your profile.</p>
+        </div>
+
+        
         <hr/>
         <label for='birthday'>What's your date of birth?</label>
         <input type='date' id='birthday' name='birthday'/>
