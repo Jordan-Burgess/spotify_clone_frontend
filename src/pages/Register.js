@@ -10,7 +10,7 @@ function Register() {
       <hr/>
       <form>
         <p>Sign up with your email address</p>
-        {/* comment */}
+        
         <div className='FormSection'>
           <label for='email'>What's your email?</label>
           <input className='textInput' type='email' id='email' name='email' placeholder='Enter your email.' required/>

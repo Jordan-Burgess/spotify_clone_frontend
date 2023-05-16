@@ -1,0 +1,106 @@
+
+.LogIn{
+    text-align: center;
+    padding: 30px;
+    
+}
+.formSection {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.textForm{
+    text-align: left;
+    width: 300px;
+}
+
+.textInput{
+    width: 300px;
+}
+.textRemember{
+    margin-top: 0px; 
+    border: 1px solid red;
+    width: 320px;
+    align-items: left;
+    text-align: left;
+    margin-left: 0px;
+   
+}
+.textRemember2{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.style-checkbox{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.style-checkbox input {
+    display: none;
+  }
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #1DB954;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+  }
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #1DB954;
+    border-radius: 50%;
+  }
+
+  .style-checkbox input:checked ~ .checkmark::after {
+    display: block;
+  }
+  
+  .style-checkbox:hover .checkmark {
+    border-color: #1ED760;
+  }
+  
+  .style-checkbox input:checked ~ .checkmark {
+    border-color: #1ED760;
+  }
+
+
+.btn.btn-success {
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    color:black;
+    margin-top: 50px ;
+    margin-bottom: 20px ;
+
+
+}
+.btn.btn-success:hover{
+    width:305px;
+    height: 45px;
+}
+
+#password-style:hover{
+    color: #1ED760
+}
+
+.style-recover{
+    margin-top: 30px;
+}
