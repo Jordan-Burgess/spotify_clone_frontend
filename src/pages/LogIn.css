@@ -1,9 +1,19 @@
+h1{
+    display: block;
+    font-weight: 700;
+}
+
+hr{
+    width: 50%;
+    
+}
 
 .LogIn{
     text-align: center;
     padding: 30px;
     
 }
+
 .formSection {
     display: flex;
     flex-direction: column;
@@ -23,7 +33,6 @@
 }
 .textRemember{
     margin-top: 0px; 
-    border: 1px solid red;
     width: 320px;
     align-items: left;
     text-align: left;
@@ -38,15 +47,18 @@
     text-align: center;
 }
 
+/* Checkbox for remember me */
 .style-checkbox{
     display: flex;
     align-items: center;
     cursor: pointer;
     font-size: 16px;
 }
+
 .style-checkbox input {
     display: none;
-  }
+}
+
 .checkmark {
     width: 20px;
     height: 20px;
@@ -54,7 +66,8 @@
     border-radius: 50%;
     margin-right: 10px;
     position: relative;
-  }
+}
+
 .checkmark::after {
     content: "";
     position: absolute;
@@ -66,17 +79,17 @@
     height: 10px;
     background-color: #1DB954;
     border-radius: 50%;
-  }
+}
 
-  .style-checkbox input:checked ~ .checkmark::after {
+.style-checkbox input:checked ~ .checkmark::after {
     display: block;
   }
   
-  .style-checkbox:hover .checkmark {
+.style-checkbox:hover .checkmark {
     border-color: #1ED760;
   }
   
-  .style-checkbox input:checked ~ .checkmark {
+.style-checkbox input:checked ~ .checkmark {
     border-color: #1ED760;
   }
 
@@ -102,5 +115,17 @@
 }
 
 .style-recover{
+    margin-top: 30px;
+}
+
+#under-signup:hover{
+    text-decoration: underline;
+}
+
+#style-recover{
+    color: #6a6a6a;
+}
+
+.container-bottom{
     margin-top: 30px;
 }

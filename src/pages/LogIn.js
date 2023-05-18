@@ -9,7 +9,7 @@ function LogIn() {
         <img src= {logo} className='Logo'/>
 
         <hr/>
-        <p>To continue, Log in to Spotify</p>
+        <h1>Log in to Spotify</h1>
 
         <form>
             <div className='formSection'>
@@ -42,9 +42,9 @@ function LogIn() {
             
             
             <hr/>
-            <p><span className="style-recover"> Don't have an account?</span>  <span className="style-recover">Sign up for Spotify</span></p>
-
-            
+            <div className="container-bottom">
+                <p><span id="style-recover"> Don't have an account?</span>  <span id ="under-signup">Sign up for Spotify</span></p>
+            </div>
             
 
         </form>
