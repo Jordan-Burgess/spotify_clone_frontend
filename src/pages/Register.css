@@ -2,19 +2,23 @@
     padding: 30px;
     text-align: center;
 }
+.FormSection {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .textInput {
     padding: 10px;
     border: 0.5px solid rgb(18, 18, 18);
     border-radius: 6px;
-    width: 300px;
+    align-self: center;
 }
 .NameNotice {
     font-size: 10px;
     margin-top: 5px;
     font-weight: bold;
-}
-.FormSection {
-    margin: 15px;
+    align-self: center;
     text-align: left;
 }
 label {
@@ -22,11 +26,22 @@ label {
     margin: 3px;
     font-weight: bold;
     font-size: 13px;
+    align-self: center;
+    text-align: left;
 }
 
 @media only screen and (max-width: 600px){
     .Logo {
         width: 40%;
+    }
+    .textInput {
+        width: 300px;
+    }
+    .NameNotice {
+        width: 300px;
+    }
+    label {
+        width: 300px;
     }
 }
 
@@ -34,16 +49,43 @@ label {
     .Logo {
         width: 35%;
     }
+    .textInput {
+        width: 350px;
+    }
+    .NameNotice {
+        width: 350px;
+    }
+    label {
+        width: 350px;
+    }
 }
 
 @media only screen and (min-width: 768px){
     .Logo {
         width: 20%;
     }
+    .textInput {
+        width: 400px;
+    }
+    .NameNotice {
+        width: 400px;
+    }
+    label {
+        width: 400px;
+    }
 }
 
 @media only screen and (min-width: 992px){
     .Logo {
         width: 15%;
+    }
+    .textInput {
+        width: 450px;
+    }
+    .NameNotice {
+        width: 450px;
+    }
+    label {
+        width: 450px;
     }
 }
