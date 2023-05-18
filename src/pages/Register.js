@@ -37,18 +37,25 @@ function Register() {
         <label for='birthday'>What's your date of birth?</label>
         <input type='date' id='birthday' name='birthday'/>
         <hr/>
+
         <p>What's your gender?</p>
-        <label for='gender'>Male</label>
-        <input type='radio' id='male' name='gender' value='male'/>
-        <label for='gender'>Female</label>
-        <input type='radio' id='female' name='gender' value='female'/>
-        <label for='gender'>Non-binary</label>
-        <input type='radio' id='nonbinary' name='gender' value='nonbinary'/>
-        <label for='gender'>Other</label>
-        <input type='radio' id='other' name='gender' value='other'/>
-        <label for='gender'>Prefer not to say</label>
-        <input type='radio' id='noanswer' name='gender' value='noanswer'/>
+        <div className='inline-group'>
+          <label for='gender'>Male</label>
+            <input type='radio' id='male' name='gender' value='male'/>
+            <label for='gender'>Female</label>
+            <input type='radio' id='female' name='gender' value='female'/>
+            <label for='gender'>Non-binary</label>
+            <input type='radio' id='nonbinary' name='gender' value='nonbinary'/>
+            <label for='gender'>Other</label>
+            <input type='radio' id='other' name='gender' value='other'/>
+            <label for='gender'>Prefer not to say</label>
+            <input type='radio' id='noanswer' name='gender' value='noanswer'/>
+        </div>
+        
+        
         <hr/>
+
+
         <input type='checkbox' id='sharedata' name='sharedata'/>
         <p>Share my data with Spotify's content providers for marketing purposes.</p>
         <p>By clicking on sign-up, you agree with Spotify's <a href="#">Terms and Conditions of Use.</a></p>
